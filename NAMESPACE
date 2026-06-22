@@ -1,0 +1,6 @@
+export(fit_three_level)
+export(multilevel_i2)
+export(prediction_interval)
+export(tidy_rema)
+S3method(print, metahelpers_fit)
+S3method(summary, metahelpers_fit)
