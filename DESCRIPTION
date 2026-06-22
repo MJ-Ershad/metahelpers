@@ -18,23 +18,3 @@ Suggests:
     clubSandwich,
     testthat (>= 3.0.0)
 RoxygenNote: 7.3.1
-Package: metahelpers
-Type: Package
-Title: Convenience Wrappers for Three-Level Random-Effects Meta-Analysis
-Version: 0.1.0
-Authors@R: person("Mohamadjavad", "Ershadmanesh", role = c("aut", "cre"),
-                  email = "noreply@example.com")
-Description: A small set of convenience wrappers over 'metafor' and
-    'clubSandwich' for the common pattern of effect sizes nested within
-    clusters. Provides fit_three_level() to set up the two random-effects
-    strata and attach CR2 cluster-robust standard errors, multilevel I^2
-    decomposition, prediction intervals, and a broom-style tidier.
-License: MIT + file LICENSE
-Encoding: UTF-8
-Imports:
-    stats
-Suggests:
-    metafor,
-    clubSandwich,
-    testthat (>= 3.0.0)
-RoxygenNote: 7.3.1
