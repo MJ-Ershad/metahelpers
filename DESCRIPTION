@@ -1,0 +1,20 @@
+Package: metahelpers
+Type: Package
+Title: Convenience Helpers for Three-Level Random-Effects Meta-Analysis
+Version: 0.1.0
+Authors@R: person("Mohamadjavad", "Ershadmanesh", role = c("aut", "cre"),
+                  email = "you@example.com")
+Description: A thin layer of convenience functions on top of 'metafor' and
+    'clubSandwich' for fitting three-level random-effects models (effect sizes
+    nested in studies nested in clusters) with cluster-robust (CR2) inference,
+    multilevel I-squared, prediction intervals, and tidy result extraction.
+    The goal is to remove the boilerplate that surrounds every multilevel
+    meta-analysis without hiding the underlying model from the user.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Imports:
+    metafor (>= 4.0.0),
+    clubSandwich (>= 0.5.0)
+Suggests:
+    testthat (>= 3.0.0)
+RoxygenNote: 7.2.3
